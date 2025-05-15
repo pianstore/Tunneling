@@ -98,6 +98,8 @@ echo ""
 echo -e "\e[0;32mNew Version Downloading started!\e[0m"
 sleep 2
 cd /usr/bin
+wget -q -O /usr/bin/fixcert "https://raw.githubusercontent.com/pianstore/Tunneling/main/theme/fixcert.sh"
+wget -q -O /usr/bin/fixhap "https://raw.githubusercontent.com/pianstore/Tunneling/main/theme/fixhap.sh"
 wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/pianstore/Tunneling/main/ssh/usernew.sh"
 wget -q -O /usr/bin/auto-reboot "https://raw.githubusercontent.com/pianstore/Tunneling/main/menu/auto-reboot.sh"
 wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/pianstore/Tunneling/main/menu/restart.sh"
