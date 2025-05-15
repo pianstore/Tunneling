@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="IlhamStoree"
+GitUser="pianstore"
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -118,7 +118,7 @@ wget -q -O /usr/bin/add-host "https://raw.githubusercontent.com/pianstore/Tunnel
 wget -q -O /usr/bin/certv2ray "https://raw.githubusercontent.com/pianstore/Tunneling/main/xray/certv2ray.sh"
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/pianstore/Tunneling/main/menu/menu-set.sh"
 wget -q -O /usr/bin/about "https://raw.githubusercontent.com/pianstore/Tunneling/main/menu/about.sh"
-#wget -q -O /usr/bin/add4 "https://raw.githubusercontent.com/Bringas-tunnel/permission/main/add4.sh"
+#wget -q -O /usr/bin/izin "https://raw.githubusercontent.com/pianstore/Tunneling/main/izin"
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/pianstore/Tunneling/main/menu/menu-backup.sh"
 wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/pianstore/Tunneling/main/ssh/trial.sh"
 wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/pianstore/Tunneling/main/ssh/usernew.sh"
